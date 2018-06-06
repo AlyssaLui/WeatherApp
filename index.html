@@ -6,9 +6,14 @@
     <title>Weather App</title>
   </head>
   <body>
-    <h1>What to Wear?</h1>
-    <div>90+</div>
-    <div></div>
-    <div>90+</div>
+  	<h1>What's the Weather?</h1>
+	  <div class="wrapper">    
+	    <button onclick="displayHot()">Hotter than 90</button>
+	    <button onclick="displayWarm()">70-80</button>
+	    <button onclick="displayCold()">Colder than 60</button>
+	  </div>
+	  <h2>You should wear: </h2>
+	  <div id="results"></div>
+	  <script src="script.js"></script>	
   </body>
 </html>
